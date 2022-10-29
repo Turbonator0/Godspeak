@@ -29,8 +29,6 @@ func nHandler(w http.ResponseWriter, req *http.Request) {
 func server() {
 	http.HandleFunc("/god", nHandler)
 	http.ListenAndServe(":8080", nil)
-	// Handle request (paramter N [/godspeak?words=<N>])
-	// Return the JSON to server the client
 }
 func main() {
 	server()
