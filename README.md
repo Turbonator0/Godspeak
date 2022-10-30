@@ -10,3 +10,5 @@ Requires:
 `curl 0.0.0.0:8080/god` (Defaults to 10 words)
 
 `curl 0.0.0.0:8080/god?count=N` Where N is the desired number of words
+
+`curl 0.0.0.0:8080/god?count=N&mode=X` Where X is `plain` or `json`, omitting defaults to `plain`
